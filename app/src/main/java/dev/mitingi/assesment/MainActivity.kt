@@ -9,7 +9,7 @@ import dev.mitingi.assesment.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
-      binding= ActivityMainBinding.inflate(layoutInflater)
+       binding= ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
     }
@@ -65,6 +65,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
 //You are building billz. A bills management solution for the urban, financially
 //responsible and tech savvy millennial. The first part of your workstream is
 //onboarding and authentication. Your registration should capture the following
@@ -99,3 +100,4 @@ class MainActivity : AppCompatActivity() {
 //            if (firstname.isBLANK)
 //                BI
 //        }
+
